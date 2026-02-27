@@ -54,3 +54,9 @@ tags: [raw-data, {自动生成的标签}]
 
 {这里放入清洗掉 HTML 标签后的纯文本，保留段落结构}
 ```
+
+### 4. Git 同步 (Git Sync)
+- 运行 `git add .` 将新生成的文件加入暂存区。
+- 运行 `git commit -m "clipping: {Title}"`。
+- 运行 `git push` 将更改同步到远程仓库。
+
