@@ -55,8 +55,26 @@ tags: [raw-data, {自动生成的标签}]
 {这里放入清洗掉 HTML 标签后的纯文本，保留段落结构}
 ```
 
-### 4. Git 同步 (Git Sync)
+### 4. 图片下载 (Image Download)
+从原始内容中，提取所有图片链接（markdown 格式的 `![alt](url)` 或 HTML 中的 `<img src="...">`）。
+在 `inbox/assets/` 目录下创建用于存放图片的子目录，目录名使用 slug。
+使用 `curl` 或 `wget` 下载所有图片到该目录，并将内容中的图片路径更新为本地路径（如 `assets/{slug}/图片名.jpg`）。
+
+### 5. 外链提取 (External Links Extraction)
+从原始内容中，提取所有外部链接（http/https 开头的，排除图片链接）。
+记录这些链接，稍后需要用户判断是否需要追踪。
+
+### 6. Git 同步 (Git Sync)
 - 运行 `git add .` 将新生成的文件加入暂存区。
 - 运行 `git commit -m "clipping: {Title}"`。
 - 运行 `git push` 将更改同步到远程仓库。
+
+### 7. 外链处理 (External Links Processing)
+列出在内容中发现的所有外部链接，格式如下：
+
+**发现的外链：**
+1. [链接描述或 URL]
+2. ...
+
+请告诉我是否需要进一步追踪这些链接（获取其内容并存入知识库）。
 
