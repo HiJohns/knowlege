@@ -41,4 +41,6 @@ To evaluate the knowledge base's structure for thematic consistency and logical 
 
 5.  **User Confirmation**: The report and its suggested actions will be presented to the user. The AI will not perform any restructuring until the user reviews and approves the plan.
 
-6.  **Commit and Push**: After the user confirms the changes, the AI will stage all changes, commit them with a descriptive message, and push them to the remote repository.
+6.  **Image Link Verification**: After any move or merge operations are approved and executed, the AI will scan the affected Markdown files for image references. It will validate and correct the relative paths to ensure they remain valid from the files' new locations.
+
+7.  **Commit and Push**: After the user confirms the changes, the AI will stage all changes, commit them with a descriptive message, and push them to the remote repository.

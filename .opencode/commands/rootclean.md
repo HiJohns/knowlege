@@ -37,4 +37,6 @@ To analyze the content of each Markdown file in the `inbox/` directory of the kn
 
 6.  **User Confirmation**: The final list of commands will be presented to the user. The AI will await approval before executing any file system modifications.
 
-7.  **Commit and Push**: After the user confirms the changes, the AI will stage all changes, commit them with a descriptive message, and push them to the remote repository.
+7.  **Image Link Verification**: After moving the files, the AI will scan each modified file for image references. It will automatically adjust the relative paths to ensure all image links point to the correct location in the `assets` directory.
+
+8.  **Commit and Push**: After the user confirms the changes, the AI will stage all changes, commit them with a descriptive message, and push them to the remote repository.
