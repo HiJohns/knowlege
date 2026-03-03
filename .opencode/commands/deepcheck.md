@@ -1,6 +1,6 @@
 # Command: deepcheck
 
-This command defines the AI-driven process for performing a comprehensive analysis of the directory structure under index/ to ensure it is balanced, coherent, and optimally organized.
+This command defines the AI-driven process for performing a comprehensive analysis of the directory structure under inbox/ to ensure it is balanced, coherent, and optimally organized.
 
 ## Objective
 

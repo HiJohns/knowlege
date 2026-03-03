@@ -4,7 +4,7 @@ This command defines the AI-driven process for organizing all Markdown files cur
 
 ## Objective
 
-To analyze the content of each Markdown file in the `index/` directory of the knowledge base, determine its primary topic, and recommend moving it to the most suitable existing or new subdirectory.
+To analyze the content of each Markdown file in the `inbox/` directory of the knowledge base, determine its primary topic, and recommend moving it to the most suitable existing or new subdirectory.
 
 ## AI Execution Flow
 
