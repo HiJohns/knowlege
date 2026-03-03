@@ -41,7 +41,7 @@ tags: [raw-data, AI-Agent, 生产力, 投研自动化, 内容创作]
 
 这是构建 agent 生产力系统的第一篇，现在点击收藏，追踪后续更新不迷路。
 
-![img1](assets/agent-automation-transformation/img1.jpg)
+![img1](../../assets/agent-automation-transformation/img1.jpg)
 
 为什么 Agent 化是必选项，不是可选项
 
@@ -197,7 +197,7 @@ Skill 4: 宏观流动性监控
 
 我设置了以下自动化任务：
 
-![img2](assets/agent-automation-transformation/img2.jpg)
+![img2](../../assets/agent-automation-transformation/img2.jpg)
 
 现在我的早晨是这样的：
 
@@ -220,7 +220,7 @@ Skill 4: 宏观流动性监控
 
 更重要的是投资决策不再轻易被情绪所影响，而是有着完整的投资逻辑，清晰的判断标准，并且根据投资表现来复盘、总结、迭代；这才是 AI 时代投资的正确路径，而不是继续招一大堆实习生每天加班更新 excel 利润预测表，或者凭感觉就 50 倍杠杆梭哈，等着大力出奇迹。
 
-![img3](assets/agent-automation-transformation/img3.jpg)
+![img3](../../assets/agent-automation-transformation/img3.jpg)
 
 02 内容生产的 Agent 化：从手工作坊到生产线
 
@@ -245,7 +245,7 @@ Skill 4: 宏观流动性监控
 
 因此在内容层面，我的 Agent 化改造分三步：
 
-![img4](assets/agent-automation-transformation/img4.jpg)
+![img4](../../assets/agent-automation-transformation/img4.jpg)
 
 第一步：建立爆款内容知识库
 
@@ -351,11 +351,11 @@ AI 输出格式：
 传统软件是 SaaS (Software as a Service): 卖能力，客户需学习使用。
 未来是 AaaS (Agent as a Service): 卖结果，客户下达指令，Agent 自动执行。
 
-![img5](assets/agent-automation-transformation/img5.jpg)
+![img5](../../assets/agent-automation-transformation/img5.jpg)
 
 我打算把这套系统跑成熟后做成开源项目，让所有人复制使用，并为机构客户提供高级付费服务。
 
-![img6](assets/agent-automation-transformation/img6.jpg)
+![img6](../../assets/agent-automation-transformation/img6.jpg)
 
 05 Agent 化的本质：从时间杠杆到算法杠杆
 

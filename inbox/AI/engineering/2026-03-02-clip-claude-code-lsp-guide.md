@@ -69,9 +69,9 @@ LSP 即 Language Server Protocol。说人话：它是让编辑器“长脑子”
 ### 总结
 未来 AI 编程工具，LSP 是标配。谁能更好理解代码结构，谁就能生成更准的代码。
 
-![Changelog](assets/claude-code-lsp-guide/lsp-update-changelog.jpg)
-![VSCode Config](assets/claude-code-lsp-guide/vscode-config-ui.jpg)
-![LSP JSON Example](assets/claude-code-lsp-guide/lsp-config-example.jpg)
+![Changelog](../../assets/claude-code-lsp-guide/lsp-update-changelog.jpg)
+![VSCode Config](../../assets/claude-code-lsp-guide/vscode-config-ui.jpg)
+![LSP JSON Example](../../assets/claude-code-lsp-guide/lsp-config-example.jpg)
 
 **参考来源**：
 - cclsp GitHub: https://github.com/ktnyt/cclsp

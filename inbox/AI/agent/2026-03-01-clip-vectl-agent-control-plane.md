@@ -91,7 +91,7 @@ phases:
 uvx vectl render # 导出 Markdown 进度报告
 uvx vectl dashboard --open # 打开 Dashboard 看 DAG 图
 
-![Dashboard 示意图](assets/vectl-agent-control-plane/dashboard.jpg)
+![Dashboard 示意图](../../assets/vectl-agent-control-plane/dashboard.jpg)
 
 至于领任务、写代码、跑测试、交证据——那都是 agent 的事。
 
@@ -106,6 +106,6 @@ uvx vectl dashboard --open # 打开 Dashboard 看 DAG 图
 - Orchestrator（调度者）：派活、收活，管并发（默认 3 路并行），推荐 GPT-5.3-Codex。
 - Subagent（干活的）：接到任务就埋头干，写代码跑测试。
 
-![三层架构示意图](assets/vectl-agent-control-plane/three-layer.jpg)
+![三层架构示意图](../../assets/vectl-agent-control-plane/three-layer.jpg)
 
 vectl 本身就是自举的。作者一行代码没写，完全靠这套流程生产了 vectl。

@@ -36,3 +36,5 @@ To analyze the content of each Markdown file in the `inbox/` directory of the kn
         > - **Command**: `mkdir -p large-language-models && mv my-notes-on-large-language-models.md large-language-models/`
 
 6.  **User Confirmation**: The final list of commands will be presented to the user. The AI will await approval before executing any file system modifications.
+
+7.  **Commit and Push**: After the user confirms the changes, the AI will stage all changes, commit them with a descriptive message, and push them to the remote repository.

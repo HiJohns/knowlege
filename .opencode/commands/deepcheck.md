@@ -40,3 +40,5 @@ To evaluate the knowledge base's structure for thematic consistency and logical 
     *   **Folders to Merge**: A list of small, related folders with proposals for a unified new directory.
 
 5.  **User Confirmation**: The report and its suggested actions will be presented to the user. The AI will not perform any restructuring until the user reviews and approves the plan.
+
+6.  **Commit and Push**: After the user confirms the changes, the AI will stage all changes, commit them with a descriptive message, and push them to the remote repository.
